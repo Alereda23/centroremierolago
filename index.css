@@ -1,0 +1,139 @@
+body {
+    background-color: white;
+    position: relative;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    top: 0px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+    font-size: 400%;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+}
+
+.image-container {
+  position: relative;
+  top: 0px;  
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0;
+}
+
+.falsaimmagine{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  opacity: ;
+}
+
+
+/* Menu */
+
+/* Stile per il menu posizionato a destra */
+#menu1 {
+  right: 0px;
+}
+#menu2 {
+  right: 35px;
+}
+#menu3 {
+  right: 231px;
+}
+#menu4 {
+  right: 314px;
+}
+#menu5 {
+  right: 437px;
+}
+#menu6 {
+  right: 687px;
+}
+#menu7 {
+  right: 861px;
+}
+#menu8{
+  right: 970px;
+}
+#menu9{
+  right: 1082px;
+}
+
+/* Stile per il menu */
+.menu {
+    position: absolute;
+    top: 7px;
+    display: inline-block;
+    color: #000;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    z-index: 2;
+    text-align: center;
+}
+
+/* Stile per gli elementi del menu */
+.menu ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none;
+    top: 100%;
+    left: 50%; /* Sposta il menu a metà della larghezza del menu principale */
+    transform: translateX(-50%); /* Centra il menu rispetto allo span */
+    z-index: 999;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.menu ul li {
+    width: 150px; /* Imposta la larghezza dei li a 190px */
+    padding: 10px 20px ;
+    text-align: center;
+    cursor: pointer;
+}
+.menu ul li:hover {
+    background-color: #f0f0f0;
+}
+  /* Stile per gli elementi del menu quando ci si passa sopra con il mouse */
+.menu:hover ul {
+    display: block;
+}
+.menu:hover {
+    background-color: #e0e0e0;
+}
