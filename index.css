@@ -231,6 +231,7 @@ right: 1082px;
   position: relative;
   display: flex;
   top: 0;
+  height: 5px;
   border: 1px solid black;
 }
 .verde {
@@ -249,24 +250,39 @@ right: 1082px;
   height: 5px;
 }
 
+.rowtogrow {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  top: -23px;
+  bottom: 0;
+  text-align: center;
+  background-color:rgb(41, 69, 102);
+  text-shadow: 2px 1px 1px black;
+
+}
+
 .rowing{
   position: relative;
-  top: 5px;
   height: 50%;
+  top: -20px;
 }
 .testorowing {
-  width: 50%;
+  position: relative;
+  width: 64%;
   height: 370px;
   float: left;
   background-color: rgb(41, 69, 102);
   padding-left: 5px;
   text-shadow: 2px 1px 1px black;
+  border-top: 6px solid white;
 }
 .row {
   position: relative;
-  float: right;
+  float: left;
   height: 370px;
-  right: 10%;
+  width: 35.6%;
+  border-top: 6px solid white;
 }
 
 .vai {
@@ -285,22 +301,24 @@ right: 1082px;
 
 .clubhouse {
   position: relative;
-  top: 0px;
   height: 50%;
 }
 .testoclubhouse {
+  position: relative;
   float: right;
   padding-left: 5px;
   background-color: rgb(41, 69, 102);
   text-shadow: 2px 1px 1px black;
-  width: 50%;
+  width: 64%;
   height: 370px;
+  border-top: 6px solid white;
 }
 .house {
   position: relative;
   float: left;
-  top: 5px;
-  height: 50%;
+  height: 370px;
+  width: 35.6%;
+  border-top: 6px solid white;
 }
 
 
@@ -312,8 +330,13 @@ right: 1082px;
   }
 
   .row {
-    right: 0;
+    width: 35.4%;
   }
+
+  .house {
+    width: 35.4%;
+  }
+
 }
 
 @media screen and (min-width: 1350px) {
