@@ -318,6 +318,39 @@ right: 1082px;
   border-top: 6px solid white;
 }
 
+footer{
+  background-color: darkslategrey;
+  position: relative;
+  top: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+.fondo{
+  position: relative;
+  text-align: center;
+}
+#scritteinfondo{
+  margin-left: 50px;
+}
+.facebook {
+  height: 30px;
+}
+#asd{
+  position: relative;
+  text-align: center;
+  margin-left: 50px;
+}
+#como{
+  text-align: right;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 1349px) {
