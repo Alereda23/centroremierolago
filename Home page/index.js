@@ -6,6 +6,7 @@ window.onload = function() {
     "image3.jpg",
     "image4.jpg",
     "image5.jpg",
+    "image6.jpg"
   ];
   var currentImageIndex = 0;
   var currentImage = document.getElementById("image" + (currentImageIndex + 1));
