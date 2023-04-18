@@ -41,112 +41,112 @@ a {
 }
 
 .image-container {
-position: relative;
-top: 0px;  
-width: 100%;
-align-items: center;
-justify-content: center;
-z-index: 1;
+  position: relative;
+  top: 0px;  
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .image-container img {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-width: 100%;
-object-fit: contain;
-opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0;
 }
 
 .falsaimmagine{
-position: relative;
-top: 0;
-z-index: 0;
-width: 100%;
-background-color: white;
-mix-blend-mode: screen;
+  position: relative;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  background-color: white;
+  mix-blend-mode: screen;
 }
 
 
 /* The side navigation menu */
 .sidenav {
-height: 100%; /* 100% Full-height */
-width: 0; /* 0 width - change this with JavaScript */
-position: fixed; /* Stay in place */
-z-index: 1; /* Stay on top */
-top: 0; /* Stay at the top */
-right: 0;
-background-color: #111; /* Black*/
-overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: 60px; /* Place content 60px from the top */
-transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
 .sidenav a {
-padding: 24px 8px 24px 32px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
-transition: 0.3s;
+  padding: 24px 8px 24px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-position: absolute;
-top: 0;
-right: 25px;
-font-size: 36px;
-margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-
 
 .menu-icon {
-display: inline-block;
-width: 67px;
-position: absolute;
-right: 20px;
-top: 20px;
+  display: inline-block;
+  width: 67px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
+
 .menu-icon span {
-display: block;
-position: absolute;
-height: 13px;
-width: 100%;
-background: white;
-border: 1px solid black;
-border-radius: 9px;
-opacity: 1;
-left: 0;
-transform: rotate(0deg);
-transition: .25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 13px;
+  width: 100%;
+  background: white;
+  border: 1px solid black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
 }
 .menu-icon span:nth-child(1) {
-top: 0px;
+  top: 0px;
 }
 .menu-icon span:nth-child(2), .menu-icon span:nth-child(3) {
-top: 19.49px;
+  top: 19.49px;
 }
 .menu-icon span:nth-child(3) {
-top: 39px;
+  top: 39px;
 }
 .menu-icon.open span:nth-child(1) {
-top: 8px;
-width: 0%;
-left: 50%;
+  top: 8px;
+  width: 0%;
+  left: 50%;
 }
 .menu-icon.open span:nth-child(2) {
-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .menu-icon.open span:nth-child(3) {
-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 
@@ -154,31 +154,31 @@ transform: rotate(-45deg);
 
 /* Stile per il menu posizionato a destra */
 #menu1 {
-right: 0px;
+  right: 0px;
 }
 #menu2 {
-right: 35px;
+  right: 35px;
 }
 #menu3 {
-right: 231px;
+  right: 231px;
 }
 #menu4 {
-right: 314px;
+  right: 314px;
 }
 #menu5 {
-right: 437px;
+  right: 437px;
 }
 #menu6 {
-right: 687px;
+  right: 687px;
 }
 #menu7 {
-right: 861px;
+  right: 861px;
 }
 #menu8{
-right: 970px;
+  right: 970px;
 }
 #menu9{
-right: 1082px;
+  right: 1082px;
 }
 
 /* Stile per il menu */
@@ -227,6 +227,7 @@ right: 1082px;
 .menu:hover {
   background-color: #e0e0e0;
 }
+
 
 .bandieraitalia {
   position: relative;
